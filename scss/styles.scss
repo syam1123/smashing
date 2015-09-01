@@ -231,7 +231,64 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
+.bottomnav{
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 150%;
+    font-weight: 400;
+    font-family: monospace;
+    .gotoTop{
+        position: relative;
+        // top: 4rem;
+        float: right;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        font-style: normal;
+        font-family: sans;
+        font-size: 1.0rem;
+        padding-bottom: 1px;
+        border-bottom: 1px solid rgba(221, 226, 220, 0.9);
+        &:hover{
+            border-bottom: 1px solid rgb(120, 116, 121);
+            color: rgb(120, 116, 121);
+        }
+        // font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    }
+    table{
+        padding-bottom: 25%;
+        .none{
+            background-color: white !important;
+            &:hover{
+                background-color: white !important;
+                cursor: auto;
+            }
+        }
+        .nextButton{
+            background: linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
+            color: white;
+            width: 5.5rem;
+            &:hover{
+                background: rgb(20, 21, 28);
+            }
+        }
+        .active{
+            background-color: #41B7D8;
+        }
+        td{
+            text-align: center;
+            border-radius: 5px;
+            width: 3.5rem;
+            padding: 10px 0px;
+            border: none;
+            margin-right: 10px;
+            &:hover{
+                background-color: #41B7D8;
+            }
+        }
+    }
+}
 #hidden_menu {
   position: relative;
   display: none;
