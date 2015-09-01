@@ -523,7 +523,7 @@ body {
         text-align: center;
         font-family: "Open Sans", sans-serif; }
       .topbar .nav-tabs li:not(:first-child):hover {
-        background-color: yellow; }
+        background-color: #ff6; }
       .topbar .nav-tabs li:first-child {
         width: 18%;
         background-color: white; }
@@ -639,7 +639,7 @@ body {
       #sidebarmenu ul li:not(:first-child) {
         color: #777; }
       #sidebarmenu ul li:hover {
-        background-color: yellow;
+        background-color: #ff6;
         opacity: 1.0; }
       #sidebarmenu ul li:last-child {
         height: 20px; }
