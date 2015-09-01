@@ -1,20 +1,5 @@
-$heading : 'Merriweather', serif;
-$head_ul : 'Montserrat', sans-serif;
-$li : 'Lato', sans-serif;
-$disable : 'Raleway', sans-serif;
-$listcolor : #35c4d8;
-$a_color : #41b7d8;
-$content_head : 'Lora', serif;
-$sub_title: 'Roboto Slab', serif;
-$content : 'Droid Serif', serif;
-$sub_content_family : 'Open Sans', sans-serif;
-$sidebar : 'Raleway', sans-serif;
+@import "variables.scss";
 
-
-$dark_gray: #333;
-$gray: #777;
-$placeholder_gray: #a1a1a1;
-$grey4: #bfbcbc;
 body, button, input, label {
   font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
   font-style: normal;
@@ -30,9 +15,8 @@ table{
         font-size: 80%;
         cursor: pointer;
         &:hover{
-            background-color: yellow;
+            background-color: #ff6;
         }
-
     }
 }
 @media (min-width : 799px) {

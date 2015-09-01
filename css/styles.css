@@ -24,7 +24,7 @@ table {
     font-size: 80%;
     cursor: pointer; }
     table td:hover {
-      background-color: yellow; }
+      background-color: #ff6; }
 
 @media (min-width: 799px) {
   #hidden_menu {
