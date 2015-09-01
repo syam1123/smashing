@@ -601,6 +601,9 @@ body {
           width: 97%; }
 
 @media (min-width: 1019px) {
+  .foot {
+    width: 799px; }
+
   .topbar {
     width: 70%; }
     .topbar .nav-tabs li:last-child {

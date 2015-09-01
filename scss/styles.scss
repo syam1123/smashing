@@ -745,6 +745,9 @@ body {
 }
 
 @media (min-width: 1019px) {
+    .foot{
+        width: 799px;
+    }
   .topbar {
     width: 70%;
     .nav-tabs {
@@ -768,6 +771,7 @@ body {
 @media (min-width: 1220px){
     .foot{
         padding-left: 20% !important;
+
     }
 }
 .foot{
@@ -775,6 +779,7 @@ body {
       margin-left: 10px;
       padding-top: 50px;
       height: auto;
+    //   width: 799px;
       &:after &:before{
           content: " ";
           display: table;
