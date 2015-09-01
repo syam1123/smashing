@@ -18,8 +18,8 @@ table {
   padding-left: 5%; }
   table td {
     padding: 1.5%;
-    margin: -2px;
-    width: 50px;
+    margin-right: 2px;
+    width: 60px;
     border-right: 1px solid #f5edf3;
     font-size: 80%;
     cursor: pointer; }
@@ -56,17 +56,20 @@ table {
     border-bottom-color: yellow; }
 
 #graphics {
-  border-bottom: 4px solid #E0C2E0; }
+  border-bottom: 4px solid #E0C2E0;
+  width: 75px; }
   #graphics:hover {
     border-bottom-color: #c3f; }
 
 #ux {
-  border-bottom: 4px solid #FFD6CC; }
+  border-bottom: 4px solid #FFD6CC;
+  width: 90px; }
   #ux:hover {
     border-bottom-color: #f30; }
 
 #wp {
-  border-bottom: 4px solid #bdf; }
+  border-bottom: 4px solid #bdf;
+  width: 85px; }
   #wp:hover {
     border-bottom-color: #41B7D8; }
 

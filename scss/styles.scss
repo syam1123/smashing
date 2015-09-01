@@ -9,8 +9,8 @@ table{
     padding-left: 5%;
     td{
         padding: 1.5%;
-        margin: -2px;
-        width: 50px;
+        margin-right: 2px;
+        width: 60px;
         border-right: 1px solid rgb(245, 237, 243);
         font-size: 80%;
         cursor: pointer;
@@ -57,18 +57,21 @@ table{
 }
 #graphics {
   border-bottom: 4px solid #E0C2E0;
+  width: 75px;
   &:hover {
     border-bottom-color: #c3f;
   }
 }
 #ux {
   border-bottom: 4px solid #FFD6CC;
+  width: 90px;
   &:hover {
     border-bottom-color: #f30;
   }
 }
 #wp {
   border-bottom: 4px solid #bdf;
+  width: 85px;
   &:hover {
     border-bottom-color: #41B7D8;
   }
