@@ -26,6 +26,12 @@ table {
     table td:hover {
       background-color: yellow; }
 
+@media (min-width: 799px) {
+  #hidden_menu {
+    display: none !important; }
+
+  #search_div {
+    display: none !important; } }
 @media (min-width: 500px) and (max-width: 799px) {
   #smashing_page {
     width: 40%;
@@ -172,7 +178,11 @@ body {
     width: 135px; }
     #title_header #buttons #search {
       position: absolute;
-      width: 30px; }
+      width: 30px;
+      line-height: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: white; }
     #title_header #buttons #menu_button {
       position: absolute;
       right: 10px;
@@ -433,7 +443,8 @@ body {
       color: white;
       font-weight: 500;
       font-family: "Raleway", sans-serif;
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 23px; }
   #adverts nav {
     margin-top: 80px; }
     #adverts nav ul {

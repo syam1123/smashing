@@ -35,6 +35,14 @@ table{
 
     }
 }
+@media (min-width : 799px) {
+    #hidden_menu{
+        display: none !important;
+    }
+    #search_div{
+        display: none !important;
+    }
+}
 @media (min-width:500px) and (max-width:799px) {
     #smashing_page{
         width: 40%;
@@ -213,6 +221,10 @@ body {
     #search {
       position: absolute;
       width: 30px;
+      line-height: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: white;
     }
 
     #menu_button {
@@ -543,6 +555,7 @@ body {
       font-weight: 500;
       font-family: $disable;
       font-size: 16px;
+      line-height: 23px;
     }
   }
   nav {
