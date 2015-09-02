@@ -55,10 +55,10 @@ table {
   #mobile:hover {
     border-bottom-color: yellow; }
 
-#graphics {
+#graphics_menu {
   border-bottom: 4px solid #E0C2E0;
   width: 75px; }
-  #graphics:hover {
+  #graphics_menu:hover {
     border-bottom-color: #c3f; }
 
 #ux {
@@ -156,37 +156,37 @@ body {
   overflow: auto;
   background-image: url(../img/back.png); }
 
-#title_header {
+#top_head {
   margin-top: 20px;
   width: 100%;
   position: static;
   height: 80px;
   padding: 0px 10px; }
-  #title_header #logo {
+  #top_head #logo {
     width: 40%;
     height: 50px;
     left: 25px;
     float: left;
     position: absolute; }
-    #title_header #logo img {
+    #top_head #logo img {
       width: 100%;
       max-width: 250px; }
-  #title_header #header_menu {
+  #top_head #header_menu {
     position: relative;
     margin-left: 10px; }
-  #title_header #buttons {
+  #top_head #buttons {
     right: 18px;
     margin-top: 2px;
     position: absolute;
     width: 135px; }
-    #title_header #buttons #search {
+    #top_head #buttons #search {
       position: absolute;
       width: 30px;
       line-height: 30px;
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       color: white; }
-    #title_header #buttons #menu_button {
+    #top_head #buttons #menu_button {
       position: absolute;
       right: 10px;
       line-height: 30px;
@@ -561,6 +561,7 @@ body {
       margin: 0px 0px;
       padding: 5px 5px;
       height: 70px;
+      margin-left: -4px;
       vertical-align: text-bottom;
       border-right-width: 0px;
       border-right: 1px solid rgba(0, 0, 0, 0.1); }

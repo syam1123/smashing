@@ -55,7 +55,7 @@ table{
     border-bottom-color: yellow;
   }
 }
-#graphics {
+#graphics_menu {
   border-bottom: 4px solid #E0C2E0;
   width: 75px;
   &:hover {
@@ -175,7 +175,7 @@ body {
   overflow:auto;
   background-image: url(../img/back.png);
 }
-#title_header {
+#top_head {
   margin-top: 20px;
   width: 100%;
   position: static;
@@ -672,7 +672,6 @@ body {
     position: relative;
     margin: 0px 5px;
     padding: 0px 0px;
-    // top: 0px;
     width: 100%;
 
     #second-child {
@@ -686,6 +685,7 @@ body {
       margin: 0px 0px;
       padding: 5px 5px;
       height: 70px;
+      margin-left: -4px;
       vertical-align: text-bottom;
       border-right-width: 0px;
       border-right: 1px solid rgba(0,0,0,.1);
